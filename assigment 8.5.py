@@ -6,7 +6,7 @@ file=input('Enter the File Name :')
 fopen=open(file)
 count=0
 for lin in fopen:   #Reading line by line from file
-    if lin.startswith('From:'): #Checing if line startswith From:
+    if lin.startswith('From:'): #Chekcing if line startswith From:
         spl=lin.split() #if Yes the split the Line (LIST)
         count=count+1
         print(spl[1]) #Printing index[1] that is the position of mail ID's
